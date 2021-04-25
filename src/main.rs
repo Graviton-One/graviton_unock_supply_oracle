@@ -29,7 +29,7 @@ async fn main() -> web3::contract::Result<()> {
     let mut accounts = web3_eth.eth().accounts().await?;
     //let farm_address = hex!("").into();
     let oracle_address = hex!("d9145CCE52D386f254917e481eB44e9943F39138").into();
-    accounts.push("0x966F3Ba719D66a017EBA39Cd0882894ea707227B".parse().unwrap());
+    accounts.push("seky".parse().unwrap());
 
     // creating instance of contract to interact with
     //let farm_contract = Contract::from_json(
